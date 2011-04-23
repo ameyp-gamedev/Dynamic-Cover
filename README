@@ -12,7 +12,7 @@ What needs to be done:
 2. Vaulting over low obstacles. Not sure if I can do this, I'm convinced that this will need to be handled via Root Motion.
 3. Animations. I suck at modelling and animating models, so that's up to riggers and animators. Animations have to be made to play while entering cover, exiting cover, peeking around corners. The scripts' original authors have already added support for peeking around corners, but for it to work a bone named SpineControl has to be added to the pawn's SkeletalMesh, among other things.
 
-The code is kinda huge, so I'm not going to paste it here. I've uploaded it to my site, download link is at the bottom of this post. The file contains the code inside Classes, and all required config files inside Config.
+Required code is inside Classes, and all required config files are inside Config.
 
 The code's also too big to explain here, so in addition to the original authors' excellent comments, I've added a few comments of my own. The code is well-commented, I don't think anyone with a reasonable amount of experience will have any trouble modifying it to work for their game.
 
@@ -20,8 +20,4 @@ There's also some code in there that's unrelated to the cover system, like tilti
 a) It doesn't affect the cover system
 b) You can remove it if you don't want it
 c) It's really, really cool so it might be helpful to others
-
-Kudos to the scripts' original authors, I've been working on this for four hours and I still haven't quite figured out how all of it fits in together. About 90% of the code in here is their's, all I've done is port it to the UDK, add a few things here and there, and fix some stuff that was broken.
-
-Note that the original authors have released the code under a Creative Commons License, and I've done the same. While I don't mind what anyone does with my code, remember that if you violate the terms of the license, the authors will have every right to sue you 
 
